@@ -1,6 +1,6 @@
 ---
-typora-root-url: xdemo-rustdesk编译文档\assets
 
+typora-root-url: README.assets
 ---
 
 # xdemo-rustdesk编译文档
@@ -15,19 +15,19 @@ rustc＋msvc(win10sdk)+vcpkg(uuid等lib)+python3.8(用于build.py自动化编译
 
 参考 [RsProxy](https://rsproxy.cn/) 配置rust下载镜像
 
-![1751529650495](/../../xdemo-rustdesk编译文档.assets/1751529650495.png)
+![1751529650495](/./../README.assets/1751529650495.png)
 
-下载rustup-init,https://www.rust-lang.org/zh-CN/tools/install,搭建rustc环境,获取rust工具链
+下载rustup-init,https://www.rust-lang.org/zh-CN/tools/install,搭建rustc环境,获取rust工具链!(/1751529650495.png)
 
-按1即可![1751528523943](/../../xdemo-rustdesk编译文档.assets/1751528523943.png)
+按1即可![1751528523943](/./../README.assets/1751528523943.png)
 
 会自动下载visual studio
 
 ### 2.vs安装选择
 
-![1751528704404](/../../xdemo-rustdesk编译文档.assets/1751528704404.png)
+![1751528704404](/./../README.assets/1751528704404.png)
 
-![1751528739893](/../../xdemo-rustdesk编译文档.assets/1751528739893.png)
+![1751528739893](/./../README.assets/1751528739893.png)
 
 ### 3.vcpkg安装
 
@@ -37,7 +37,7 @@ vpkg下载地址](https://github.com/microsoft/vcpkg)
 
 目录为自己vcpkg安装目录
 
-![1751528879996](/../../xdemo-rustdesk编译文档.assets/1751528879996.png)
+![1751528879996](/./../README.assets/1751528879996.png)
 
 path里添加%VCPKG_ROOT%
 
@@ -63,7 +63,7 @@ https://github.com/llvm/llvm-project/releases
 
 添加环境变量
 
-![1751530015564](/../../xdemo-rustdesk编译文档.assets/1751530015564.png)
+![1751530015564](/./../README.assets/1751530015564.png)
 
 ## 二.编译
 
@@ -89,9 +89,9 @@ extended_text: 13.0.0
 
 终端内先进flutter文件夹get flutter依赖
 
-![1751530180431](/../../xdemo-rustdesk编译文档.assets/1751530180431-1751531065199.png)
+![1751530180431](/./../README.assets/1751530180431-1751531065199.png)
 
-回到根目录生成桥接文件![1751530408726](/../../xdemo-rustdesk编译文档.assets/1751530408726.png)
+回到根目录生成桥接文件![1751530408726](/./../README.assets/1751530408726.png)
 
 ```
  flutter_rust_bridge_codegen --rust-input ./src/flutter_ffi.rs --dart-output ./flutter/lib/generated_bridge.dart 
