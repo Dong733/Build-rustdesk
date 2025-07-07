@@ -3,7 +3,7 @@
 typora-root-url: README.assets
 ---
 
-# xdemo-rustdesk编译文档
+# rustdesk编译文档
 
 ## 一.环境搭建
 
